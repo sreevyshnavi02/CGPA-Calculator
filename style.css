@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.get_grade,
+td,
+tr,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 0.5rem;
+}
+
+.get_stud_details {
+  margin: 1rem auto 1rem auto;
+  height: fit-content;
+  width: 75%;
+  padding: 1rem;
+  border: 1px;
+  border-radius: 1px;
+  background-color: rgb(192, 206, 206);
+  display: block;
+  justify-content: space-between;
+  /*align-items: center;*/
+}
+
+span {
+  display: inline-block;
+  text-align: center;
+  line-height: 1rem;
+}
+
+/*.get_grade, .btn{*/
+/*    margin: 1rem auto 0 auto;*/
+/*}*/
+
+.get_grade {
+  margin: 1rem;
+}
+
+.btn,
+.submit {
+  padding: 0.5rem;
+  margin: 1rem;
+  background-color: rgb(62, 86, 98);
+  color: white;
+}
+
+.submit {
+  background-color: rgb(192, 206, 206);
+  color: black;
+}
+
+.header {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  color: white;
+  background-color: rgb(62, 86, 98);
+  height: 3rem;
+}
+
+.cgpa {
+  border: 2px solid rgb(62, 86, 98);
+  display: inline;
+  padding: 1rem;
+  margin: 1rem;
+  /*color: white;*/
+}
